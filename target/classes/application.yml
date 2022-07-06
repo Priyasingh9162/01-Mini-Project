@@ -1,0 +1,21 @@
+server:
+  port: 1111
+spring:
+  datasource:
+    #driver-class-name: com.mysql.jdbc.Driver  
+    password: 12345678
+    url: jdbc:mysql://mini-pro-01.cmno9301dhgh.ap-south-1.rds.amazonaws.com/jrtp 
+    username: root
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+   
+  
+app:
+ messages:
+   contactSaveSucc: ContactSaved
+   contactSaveFail: ContactSavedFail
+   contactDelSucc: ContactDeleted
+   contactDelFail: ContactDeleteFail
+  

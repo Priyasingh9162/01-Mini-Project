@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "app",
+      "type": "priya.in.config.appconfig",
+      "sourceType": "priya.in.config.appconfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.messages",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "priya.in.config.appconfig"
+    }
+  ],
+  "hints": []
+}
